@@ -4,7 +4,7 @@ from pox.lib.packet.ethernet import ethernet
 from pox.lib.packet.ipv4 import ipv4
 from pox.lib.packet.icmp import icmp
 import pox.openflow.libopenflow_01 as of
-from final_config import INTERFACES, BACKBONE_LINKS, GATEWAY_IPS
+from .final_config import INTERFACES, BACKBONE_LINKS, GATEWAY_IPS
 
 log = core.getLogger("ip_handler")
 

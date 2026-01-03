@@ -4,7 +4,7 @@ from pox.lib.packet.ethernet import ethernet
 from pox.lib.packet.arp import arp
 from pox.lib.addresses import EthAddr
 import pox.openflow.libopenflow_01 as of
-from final_config import INTERFACES, GATEWAY_IPS
+from .final_config import INTERFACES, GATEWAY_IPS
 
 log = core.getLogger("arp_handler")
 

@@ -1,6 +1,6 @@
 # firewall.py
 from pox.core import core
-from final_config import FIREWALL_RULES, IP_PROTO_TCP, IP_PROTO_UDP
+from .final_config import FIREWALL_RULES, IP_PROTO_TCP, IP_PROTO_UDP
 
 log = core.getLogger("firewall")
 

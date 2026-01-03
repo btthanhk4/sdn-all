@@ -3,11 +3,11 @@ from pox.core import core
 import pox.openflow.libopenflow_01 as of
 from pox.lib.packet.ethernet import ethernet
 
-from firewall import Firewall
-from arp_handler import ARPHandler
-from ip_handler import IPHandler
-from flow_installer import FlowInstaller
-from monitor import Monitor
+from .firewall import Firewall
+from .arp_handler import ARPHandler
+from .ip_handler import IPHandler
+from .flow_installer import FlowInstaller
+from .monitor import Monitor
 
 log = core.getLogger("controller")
 
